@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#66000000"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新建歌单"
+        android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/input_ID_exit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入歌单标题"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/input_cancel_create_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+
+            android:text="取消"
+            android:textSize="25sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="3">
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/input_put_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="提交"
+            android:background="#00000000"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

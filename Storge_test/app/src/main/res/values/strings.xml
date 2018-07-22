@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Storge_test</string>
+    <string name="channel_description">THIS_IS_MY_MUSIC_PLAYER_CHANNEL</string>
+    <string name="channel_name">MY_MUSIC_PLAYER_CHANNEL</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="channel_description2">THIS_IS_MY_DOWNLOAD_PLAYER_CHANNEL</string>
+    <string name="channel_name2">MY_DOWNLOAD_PLAYER_CHANNEL</string>
+</resources>

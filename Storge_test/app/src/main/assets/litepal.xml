@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value = "ListStore">
+
+    </dbname>
+
+    <version value = "12">
+
+    </version>
+    <list>
+        <mapping class="com.example.dell.storge_test.MyMusicList">
+        </mapping>
+        <mapping class="com.example.dell.storge_test.Music">
+
+        </mapping>
+
+    </list>
+</litepal>

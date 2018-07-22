@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/ic_blackground">
+    <TextView
+        android:id="@+id/widget_music_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="25sp"
+        android:text="无音乐播放"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/widget_button_previous"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_last"/>
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/widget_button_stop_play"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#00000000"/>
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/widget_button_next"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_next"/>
+    </LinearLayout>
+
+</LinearLayout>

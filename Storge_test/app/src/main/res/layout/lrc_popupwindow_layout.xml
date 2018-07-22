@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="330dp"
+    android:orientation="vertical"
+    android:background="#00000000">
+
+<com.example.dell.storge_test.LrcView
+    android:id="@+id/lrc_View"
+    android:layout_width="match_parent"
+    android:layout_height="300dip"
+    android:layout_centerHorizontal="true" />
+
+</LinearLayout>
